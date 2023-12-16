@@ -8,7 +8,6 @@ class Comment(models.Model):
     def __str__(self):
         return f'Comment {self.id}'
 
-# Create your models here.
 class Message(models.Model):
     content = models.TextField()
     latitude = models.FloatField()
