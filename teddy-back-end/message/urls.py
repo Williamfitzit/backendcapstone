@@ -1,4 +1,3 @@
-# messages/urls.py
 from django.urls import path
 from .views import MessageListCreateView, MessageUpvoteView, CommentCreateView, LoginView, MessageDeleteView
 from .views import MessageUpvoteView
